@@ -31,3 +31,6 @@ $(document).ready(function () {
             this.newTopping = topping;
             this.newQuantity = quantity;
         }
+
+        //an object/instance (of the above constructor) to save the users order
+        var userInput = new Order(flavor(), size(), crust(), topping(), number());

@@ -43,3 +43,11 @@ $(document).ready(function () {
                 userInput.newFlavor) *
             userInput.newQuantity;
 
+        //prompts for the user
+        alert("Your charges for Pizza" + totalCost);
+        prompt("enter your email address");
+        prompt("enter your phone number");
+        prompt("enter your location");
+        alert("Your pizza will be delivered");
+
+
